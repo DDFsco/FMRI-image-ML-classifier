@@ -1,6 +1,18 @@
 # BrainMapNet: Classifying Visual Stimuli from fMRI Activation Maps
 
-EECS 442 Final Project - Adapted from EECS 445 Project 2
+# fMRI Brain-State Classifier
+
+CNN-based decoder for cognitive state classification from fMRI-derived 
+cortical surface activation maps.
+
+## Overview
+- Curated 4,000+ labeled brain surface images from fMRI data
+- Trained CNN with convolutional layers, pooling, and dropout (PyTorch)
+- Achieved 94% F1-score (5-fold cross-validation)
+- Applied gradient-based saliency maps to identify discriminative cortical regions
+
+## Stack
+Python · PyTorch · NumPy · scikit-learn
 
 ## 项目概述
 
